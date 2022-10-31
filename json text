@@ -8,18 +8,22 @@ Aplikasi ini dapat digunakan untuk menghitung pajak yang harus dipotong untuk pe
     Uang pensiun
     Uang pesangon dan tunjangan dan jaminan hari tua yang dibayarkan di dua tahun peratama semenjak berhenti bekerja
     Dana pensiun yang ditarik oleh pegawai sebelum masa pensiun
+    
+Masukan masa pajak berjalan
+
+Masukan tahun pajak berjalan
 
 Informasi Penerima Penghasilan
    
 Pilih status yang paling cocok mengenai kewarnegaraan dan tempat tinggal penerima penghasilan.
-      Orang indonesia atau negara asing yang bertempat tinggal di indonesia
-      Orang indonesia atau negara asing yang berada di Indonesia lebih dari 183 hari di dalam waktu satu tahun
-      Orang indonesia atau negara asing yang sudah berada di Indonesia dan berniat bertempat tinggal di Indonesia
-      Orang indonesia atau negara asing yang tidak bertempat tinggal di indonesia
-      Orang negara asing yang berada di Indonesia tidak lebih dari 183 hari di dalam waktu satu tahun
-      Orang indonesia yang berada di luar negeri lebih dari 183 hari di dalam waktu satu tahun dan memenuhi syarat-syarat tertentu
+      Warga Negara Indonesia atau Warga Negara Asing yang bertempat tinggal di indonesia
+      Warga Negara Indonesia atau Warga Negara Asing yang berada di Indonesia lebih dari 183 hari di dalam waktu satu tahun
+      Warga Negara Indonesia atau Warga Negara Asing yang sudah berada di Indonesia dan berniat bertempat tinggal di Indonesia
+      Warga Negara Indonesia atau Warga Negara Asing yang tidak bertempat tinggal di indonesia
+      Warga Negara Asing yang berada di Indonesia tidak lebih dari 183 hari di dalam waktu satu tahun
+      Warga Negara Indonesia yang berada di luar negeri lebih dari 183 hari di dalam waktu satu tahun dan memenuhi syarat-syarat tertentu
       
-Pilik tipe yang paling cocok mengenai pekerjaan, jasa atau kegiatan yang dilakukan penerima penghasilan.
+Pilih tipe yang paling cocok mengenai pekerjaan, jasa atau kegiatan yang dilakukan penerima penghasilan.
       Pegawai tetap
       Penerima Pensiun Berkala
       Pekerja tidak tetap atau tenaga kerja lepas
@@ -35,7 +39,128 @@ Pilik tipe yang paling cocok mengenai pekerjaan, jasa atau kegiatan yang dilakuk
 Apakah penerima penghasilan sudah memiliki Nomor Pokok Wajib Pajak (NPWP)?
       Sudah
       Belum
-          
+      
+Pilih status keluarga yang paling cocok untuk penerima penghasilan pada saat awal tahun pajak atau, jika penerima penghasilan baru datang dan menetap di Indonesia, pada awal bulan bekerja.
+      Belum Kawin
+      Laki-Laki Kawin
+      Wanita Kawin, Suami Bekerja
+      Wanita Kawin, Suami Tidak Bekerja dengan menunjukkan surat keterangan tertulis serendah-rendahnya dari pemerintah kecamatan
+      
+Berapa orang keluarga yang ditanggung sepenuhnya oleh penerima penghasilan? Yang termasuk keluarga yang dapat ditanggung adalah anggota keluarga
+sedarah dan keluarga semenda dalam garis keturunan lurus serta anak angkat. Penerima penghasilan wajib melaporkan informasi ini kepada pemberi kerja pada awal tahun pajak atau pada saat penerima penghasilan menjadi subjek pajak dalam negeri. Jumlah keluarga yang dapat ditanggung dibatasi sampai dengan 3 (tiga) orang.
+      1
+      2
+      3
+
+Kewajiban pajak subjektif Warga Negara Indonesia atau Warga Negara Asing yang bertempat tinggal di indonesia dimulai ada saat orang pribadi tersebut dilahirkan,       berada, atau berniat untuk bertempat tinggal di Indonesia dan berakhir pada saat meninggal dunia atau meninggalkan Indonesia untuk selama‐lamanya.
+    
+
+Kapan kewajiban pajak subjektif penerima penghasilan dimulai?
+      Sudah terhitung sejak awal tahun pajak
+      Di dalam tahun pajak berjalan saat mulai bekerja
+      
+Kapan penerima penghasilan mulai bekerja di tempat kerja yang sekarang?
+      
+Apakah penerima penghasilan akan berhenti bekerja pada bulan ini?
+      Ya
+      Tidak
+      
+Apakah kewajiban pajak subjektif penerima penghasilan juga berakhir pada saat berhenti bekerja?
+      Ya
+      Tidak
+      
+Apakah penerima penghasilan akan memasuki masa pensiun di dalam tahun pajak berjalan?
+      Ya
+      Tidak
+      
+Apakah waktu penerima penghasilan akan memasuki masa pensiun dapat diketahui dengan pasti pada saat awal tahun pajak?
+      Ya
+      Tidak
+      
+Kapan penerima penghasilan akan memasuki masa pensiun?
+
+Rinci Penghasilan
+
+Berdasarkan slip gaji terakhir dan informasi gaji lainnya:
+
+Masukan gaji pokok sebulan untuk bulan berjalan
+Masukan jumlah kumulatif gaji pokok yang telah dibayarkan di dalam tahun pajak berjalan
+
+Pilih penghasilan lainnya yang dibayarkan seiiring dengan gaji pokok:
+
+      Tunjangan pajak penghasilan
+        Masukan jumlah sebulan untuk bulan berjalan
+        Masukan jumlah kumulatif yang telah dibayarkan di dalam tahun pajak berjalan
+    
+      Tunjangan lainnya
+        Masukan jumlah sebulan untuk bulan berjalan
+        Masukan jumlah kumulatif yang telah dibayarkan di dalam tahun pajak berjalan
+        
+      Overtime
+        Masukan jumlah sebulan untuk bulan berjalan
+        Masukan jumlah kumulatif yang telah dibayarkan di dalam tahun pajak berjalan
+        
+      Jaminan Kecelakaan Kerja (JKK)
+        Masukan jumlah sebulan untuk bulan berjalan
+        Masukan jumlah kumulatif yang telah dibayarkan di dalam tahun pajak berjalan
+        
+      Jaminan Kematian (JKM)
+        Masukan jumlah sebulan untuk bulan berjalan
+        Masukan jumlah kumulatif yang telah dibayarkan di dalam tahun pajak berjalan
+        
+      Jaminan Pemeliharaan Kesehatan (JPK)
+        Masukan jumlah sebulan untuk bulan berjalan
+        Masukan jumlah kumulatif yang telah dibayarkan di dalam tahun pajak berjalan
+        
+      Premi asuransi kesehatan, kecelakaan kerja, jiwa, dwiguna atau beasiswa lainnya yang dibayarkan oleh pemberi kerja
+        Masukan jumlah sebulan untuk bulan berjalan
+        Masukan jumlah kumulatif yang telah dibayarkan di dalam tahun pajak berjalan
+        
+      Jasa produksi
+        Masukan jumlah
+    
+      Tantiem
+        Masukan jumlah
+        
+      Gratifikasi
+        Masukan jumlah
+        
+      Bonus
+        Masukan jumlah
+        
+      Premi
+        Masukan jumlah
+        
+      Tunjangan hari raya
+        Masukan jumlah
+        
+      Penghasilan lainnya yang sifatnya tidak tetap atau dibayarkan sekali setahun
+        Masukan jumlah
+        
+Masukan jumlah kumulatif PPh Pasal 21 yang telah dibayarkan di dalam tahun pajak berjalan
+             
+Deduksi
+ 
+Pekerja tetap dan penerima pensiun berkala secara otomatis mendapatkan deduksi sebanyak 5% dari jumlah penghasilan yang telah dimasukan di langkah sebelumnya. Deduksi ini dikenal dengan biaya jabatan dan biaya pensiun dengan batas masing-masing Rp. 6.000.000,00 (enam juta rupiah) dan Rp. 2.400.000,00 (dua juta empat ratus ribu rupiah) untuk satu tahun pajak atau Rp. 500.000,00 (lima ratus ribu rupiah) dan Rp. 200.000,00 (dua ratus ribu rupiah) untuk satu bulan masa pajak.
+
+Biaya jabatan
+
+Biaya Pensiun
+
+Biaya lainnya yang dibayarkan oleh penerima penghasilan yang dapat dikurangkan dari jumlah penghasilan:
+
+      Iuran pensiun
+        Masukan jumlah sebulan untuk bulan berjalan
+        Masukan jumlah kumulatif yang telah dibayarkan di dalam tahun pajak berjalan
+        
+      Iuran tunjangan hari tua
+        Masukan jumlah sebulan untuk bulan berjalan
+        Masukan jumlah kumulatif yang telah dibayarkan di dalam tahun pajak berjalan
+        
+      Iuran jaminan hari tua
+        Masukan jumlah sebulan untuk bulan berjalan
+        Masukan jumlah kumulatif yang telah dibayarkan di dalam tahun pajak berjalan
+        
 Penerima penghasilan merupakan subjek pajak luar negeri dan penghasilan wajib dipotong pajak berdasarkan Pasal 26 Undang-Undang Pajak Penghasilan. 
 
 Masukan tempat tinggal atau kependudukan penerima penghasilan.
