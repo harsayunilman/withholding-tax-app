@@ -1,0 +1,238 @@
+[ 
+    {
+        "title": {
+            "label" : "Kalkulator PPh 21/26",
+            "heading": "Withholding Tax App",
+            "intro1": "Gunakan aplikasi ini untuk menghitung perkiraan jumlah pajak yang dipotong atas penghasilan yang berkaitan dengan pekerjaan, jasa dan kegiatan di Indonesia yang dibayarkan atau terutang kepada orang pribadi.",
+            "intro2": "Pemotongan ini dilakukan berdasarkan Pasal 21 dan Pasal 26 Undang-Undang Pajak Penghasilan yang selanjutnya diatur dengan Peraturan Direktur Jenderal Pajak Nomor : PER - 16/PJ/2016",
+            "aboutYou": "Informasi Penerima Penghasilan"
+        }
+
+    },
+
+    {  "taxableIncome": {
+            "label" : "Jenis-jenis penghasilan yang dicakup oleh aplikasi ini adalah:",
+            "legend": [
+                {"income": "Penghasilan yang diterima oleh pegawai tetap seperti gaji, tunjangan dan bonus"},
+                {"income": "Upah yang diterima pegawai tidak tetap atau tenaga kerja lepas yang dibayarkan secara harian, mingguan atau bulanan"},
+                {"income": " Imbalan yang diberikanan kepada bukan pegawai termasuk tenaga ahli dan professional atas jasa, pekerjaan dan kegiatan yang diberikan"},
+                {"income": "Imbalan yang diberikan oleh penyelenggara suatu kegiatan kepada peserta kegiatan seperti seminar atau pertunjukan"},
+                {"income": "Imbalan yang diberikan kepada mantan pegawai"},
+                {"income": "Imbalan yang diberikan kepada dewan pengawas atau komisaris yang tidak merangkap sebagai pekerja tetap"},
+                {"income": "Uang pensiun"},
+                {"income": "Uang pesangon dan tunjangan dan jaminan hari tua yang dibayarkan di dua tahun peratama semenjak berhenti bekerja"},
+                {"income": "Dana pensiun yang ditarik oleh pegawai sebelum masa pensiun"}
+             
+            ]
+        }
+    },
+
+    {   "domicile": {
+            "label" : "Pilih status yang paling cocok mengenai kewarnegaraan dan tempat tinggal penerima penghasilan.",
+            "legend": [
+                {"option": "Warga Negara Indonesia atau Warga Negara Asing yang bertempat tinggal di indonesia", "isWNI": true},
+                {"option": "Warga Negara Indonesia atau Warga Negara Asing yang berada di Indonesia lebih dari 183 hari di dalam waktu satu tahun", "isWNI": true},
+                {"option": "Warga Negara Indonesia atau Warga Negara Asing yang sudah berada di Indonesia dan berniat bertempat tinggal di Indonesia", "isWNI": true},
+                {"option": "Warga Negara Indonesia atau Warga Negara Asing yang tidak bertempat tinggal di indonesia", "isWNI": false},
+                {"option": "Warga Negara Indonesia yang berada di luar negeri lebih dari 183 hari di dalam waktu satu tahun dan memenuhi syarat-syarat tertentu", "isWNI": false}
+            ]
+        }
+    },        
+            
+    {   "wnaTitle" : "Pajak Penghasilan Pasal 26",
+        "wnaIntro" : "Penerima Penghasilan merupakan subjek pajak luar negeri dan dipotong Pajak Penghasilan Pasal 26, kecuali",
+        "wnaException": [
+            {"exception": "Warna negara asing yang bekerja sebagai pejabat perwakilan diplomatik dan konsulat di Indonesia dengan syarat negara yang bersangkukan memperlakukan peraturan yang sama terhadap warga negara indonesia yang bekerja sebagai pegawai perwakilan diplomatik dan konsulat di negara yang bersangkutan dan tidak menerima penghasilan lainnya di luar jabatan atau pekerjaannya tersebut."},
+            {"exception": "Warna negara asing yang bekerja sebagai pejabat perwakilan organisasi international yang telah disahkan oleh pemerintah dan tidak menjalankan pekerjaan, usaha atau kegiatan untuk menerima penghasilan lainnya dari Indonesia."}
+        ]   
+    },
+
+    {   "taxObject": {
+            "title": "Pajak Penghasilan Pasal 21",
+            "label" : "Pilih tipe yang paling cocok mengenai pekerjaan, jasa atau kegiatan yang dilakukan penerima penghasilan.",
+            "legend": [
+                {"object": "Pegawai tetap", "model":0},
+                {"object": "Penerima pensiun berkala", "model":1},
+                {"object": "Pekerja tidak tetap atau tenaga kerja lepas", "model":2},
+                {"object": "Bukan pegawai yang menerima penghasilan bersifat berkesinambungan", "model":3},
+                {"object": "Bukan pegawai yang menerima penghasilan tidak bersifat berkesinambungan", "model":4},
+                {"object": "Anggota dewan pengawas atau komisaris yang tidak merangkap sebagai pekerja tetap", "model":5},
+                {"object": "Mantan pegawai yang menerima imbalan dari mantan pemberi kerja", "model":6},
+                {"object": "Pegawai yang melakukan penarikan dana pensiun", "model":7},
+                {"object": "Peserta kegiatan", "model":8},
+                {"object": "Penerima uang pesangon yang dibayarkan di dua tahun pertama setelah berhenti bekerja", "model":9},
+                {"object": "Penerima tunjangan dan jaminan hari tua di dua tahun pertama setelah berhenti bekerja", "model":10}
+            ]
+        }
+    },
+
+    {   "model": {
+            "legend": [
+                {"title": "Pegawai Tetap", "model":0},
+                {"title": "Penerima Pensiun Berkala", "model":1},
+                {"title": "Pekerja Tidak Tetap atau Tenaga Kerja Lepas", "model":2},
+                {"title": "Bukan Pegawai yang Menerima Penghasilan Bersifat Berkesinambungan", "model":3},
+                {"title": "Bukan Pegawai yang Menerima Penghasilan tidak Bersifat Berkesinambungan", "model":4},
+                {"title": "Anggota Dewan Pengawas atau Komisaris yang Tidak Merangkap sebagai Pekerja Tetap", "model":5},
+                {"title": "Mantan Pegawai yang Menerima Imbalan dari Mantan Pemberi Kerja", "model":6},
+                {"title": "Pegawai yang Melakukan Penarikan Dana Pensiun", "model":7},
+                {"title": "Peserta Kegiatan", "model":8},
+                {"title": "Penerima Uang Pesangon yang Dibayarkan di Dua Tahun Pertama setelah Berhenti Bekerja", "model":9},
+                {"title": "Penerima Tunjangan dan Jaminan Hari Tua di Dua Tahun Pertama setelah Berhenti Bekerja", "model":10}
+            ]
+        }
+    },
+
+    {  "regularIncome": {
+        "title": "Penghasilan Teratur",
+        "label": "Pilih penghasilan lainnya yang dibayarkan seiiring dengan gaji pokok:",
+        "legend": [
+            {"regularIncomeType": "Gaji Pokok", "mSum": "mSum0",  "cSum": "cSum0"},
+            {"regularIncomeType": "Tunjangan pajak penghasilan", "mSum": "mSum1",  "cSum": "cSum1"},
+            {"regularIncomeType": "Tunjangan lainnya", "mSum": "mSum2",  "cSum": "cSum2"},
+            {"regularIncomeType": "Overtime", "mSum": "mSum3",  "cSum": "cSum3"},
+            {"regularIncomeType": "Jaminan Kecelakaan Kerja (JKK)", "mSum": "mSum4",  "cSum": "cSum4"},
+            {"regularIncomeType": "Jaminan Kematian (JKM)", "mSum": "mSum5",  "cSum": "cSum5"},
+            {"regularIncomeType": "Jaminan Pemeliharaan Kesehatan (JPK)", "mSum": "mSum6",  "cSum": "cSum6"},
+            {"regularIncomeType": "Premi asuransi kesehatan, kecelakaan kerja, jiwa, dwiguna atau beasiswa lainnya yang dibayarkan oleh pemberi kerja", "mSum": "mSum7",  "cSum": "cSum7"}
+            ]
+        }
+    },
+
+    { "irregularIncome": {
+        "title": "Penghasilan Tidak Teratur",
+        "legend": [
+            {"irregularIncomeType": "Jasa produksi", "mSum": "mSum8",  "cSum": "cSum8"},
+            {"irregularIncomeType": "Tantiem", "mSum": "mSum9",  "cSum": "cSum9"},
+            {"irregularIncomeType": "Gratifikasi", "mSum": "mSum10",  "cSum": "cSum10"},
+            {"irregularIncomeType": "Bonus", "mSum": "mSum11",  "cSum": "cSum11"},
+            {"irregularIncomeType": "Premi", "mSum": "mSum12",  "cSum": "cSum12"},
+            {"irregularIncomeType": "Tunjangan hari raya", "mSum": "mSum13",  "cSum": "cSum13"},
+            {"irregularIncomeType": "Penghasilan lainnya yang sifatnya tidak tetap atau dibayarkan sekali setahun", "mSum": "mSum14",  "cSum": "cSum14"}
+            ]
+        }
+    },
+
+    {   "month": {
+            "legend": [
+                {"month": "Please select", "value": ""},
+                {"month": "Januari", "value": 1},
+                {"month": "Februari", "value": 2},
+                {"month": "Maret", "value": 3},
+                {"month": "April", "value": 4},
+                {"month": "Mei", "value": 5},
+                {"month": "Juni", "value": 6},
+                {"month": "Juli", "value": 7},
+                {"month": "Agustus", "value": 8},
+                {"month": "September", "value": 9},
+                {"month": "Oktober", "value": 10},
+                {"month": "November", "value": 11},
+                {"month": "Desember", "value": 12}
+                ]
+        }
+    },
+
+    {   "marriageStatus": {
+            "label": "Pilih status keluarga yang paling cocok untuk penerima penghasilan:",
+            "legend": [            
+                {"marriageType": "Belum Kawin", "value":"BK"},
+                {"marriageType": "Laki-Laki Kawin", "value":"LK"},
+                {"marriageType": "Wanita Kawin, Suami Bekerja", "value":"WKSB"},
+                {"marriageType": "Wanita Kawin, Suami Tidak Bekerja", "value":"WKSTB"}
+            ]
+        }
+    },
+        {  "dependent": {
+            "label": "Berapa orang keluarga yang ditanggung sepenuhnya oleh penerima penghasilan?",
+            "tip": "Pegawai tetap, penerima pensiun berkala, bukan pegawai yang menerima penghasilan bersifat berkesinambungan,  dan pekerja tidak tetap atau tenaga kerja lepas tertentu dapat mendapatkan deduksi berdasarkan jumlah keluarga yang ditanggung. Yang termasuk keluarga yang dapat ditanggung adalah anggota keluarga sedarah dan keluarga semenda dalam garis keturunan lurus serta anak angkat. Penerima penghasilan wajib melaporkan informasi ini kepada pemberi kerja pada awal tahun pajak atau pada saat penerima penghasilan menjadi subjek pajak dalam negeri untuk dapat mengklaim deduksi. Jumlah keluarga yang dapat ditanggung maksimum 3 (tiga) orang.",
+            "legend": [
+                {"dependentNo": "0 (Nol)", "id": "dependent0"},
+                {"dependentNo": "1 (Satu)", "id": "dependent1"},
+                {"dependentNo": "2 (Dua)", "id": "dependent2"},
+                {"dependentNo": "3 (Tiga)", "id": "dependent3"}
+            ]
+        }
+    },
+
+    {  "pensionYear" : {
+        "label" : "Apakah penerima penghasilan akan memasuki masa pensiun di dalam tahun pajak berjalan?",
+        "legend": [
+            {"pensionYearOption": "Ya"},
+            {"pensionYearOption": "Tidak"}
+            ]
+        }
+    },
+
+    {  "pensionDate" : {
+        "label" : "Apakah waktu penerima penghasilan akan memasuki masa pensiun dapat diketahui dengan pasti pada saat awal tahun pajak?",
+        "legend": [
+            {"pensionDateOption": "Ya"},
+            {"pensionDateOption": "Tidak"}
+            ]
+        }
+    },
+    
+        {  "taxSubject": {
+            "label": "Kapan kewajiban pajak subjektif penerima penghasilan dimulai?",
+            "tip": "Kewajiban pajak subjektif Warga Negara Indonesia atau Warga Negara Asing yang bertempat tinggal di indonesia dimulai ada saat orang pribadi tersebut dilahirkan, berada, atau berniat untuk bertempat tinggal di Indonesia dan berakhir pada saat meninggal dunia atau meninggalkan Indonesia untuk selama-lamanya.",
+            "legend": [
+                {"subjectiveStart": "Sudah terhitung sejak awal tahun pajak"},
+                {"subjectiveStart": "Di dalam tahun pajak berjalan saat mulai bekerja"}
+            ]
+        }
+    },
+        {  "startDate" : {
+            "label" : "Kapan penerima penghasilan mulai bekerja di tempat kerja yang sekarang?"
+        }
+    },
+        {  "endDate" : {
+            "label" : "Apakah penerima penghasilan akan berhenti bekerja pada bulan ini?",
+            "legend": [
+                {"endOption": "Ya"},
+                {"endOption": "Tidak"}
+            ]
+        }
+    },
+
+
+    {   "npwpStatus": {
+        "label": "Apakah penerima penghasilan sudah memiliki Nomor Pokok Wajib Pajak (NPWP)?",
+        "legend": [
+            {"npwpType": "Sudah"},
+            {"npwpType": "Belum"}
+        ]
+    }
+},
+
+        { "incomeLabel": "Berdasarkan slip gaji terakhir dan informasi gaji lainnya:"},
+
+        {  "basicSalaryLabel": "Masukan gaji pokok sebulan untuk bulan berjalan"},
+
+        { "cumBasicSalaryLabel": "Masukan jumlah kumulatif gaji pokok yang telah dibayarkan di dalam tahun pajak berjalan"},
+
+
+        {  "enterMonthAmountLabel": "Masukan jumlah sebulan untuk bulan berjalan"},
+
+        { "enterCumAmountLabel": "Masukan jumlah kumulatif yang telah dibayarkan di dalam tahun pajak berjalan"},
+
+        { "enterAmountLabel": "Masukan jumlah"},
+
+        {"enterCumPPhLabel": "Masukan jumlah kumulatif PPh Pasal 21 yang telah dibayarkan di dalam tahun pajak berjalan"},
+
+        {"deduksiIntro": "Pekerja tetap dan penerima pensiun berkala secara otomatis mendapatkan deduksi sebanyak 5% dari jumlah penghasilan yang telah dimasukan di langkah sebelumnya. Deduksi ini dikenal dengan biaya jabatan dan biaya pensiun dengan batas masing-masing Rp. 6.000.000,00 (enam juta rupiah) dan Rp. 2.400.000,00 (dua juta empat ratus ribu rupiah) untuk satu tahun pajak atau Rp. 500.000,00 (lima ratus ribu rupiah) dan Rp. 200.000,00 (dua ratus ribu rupiah) untuk satu bulan masa pajak."},
+
+        {"employmentDeductionLabel": "Biaya jabatan"},
+
+        {"pensionDeductionLabel": "Biaya Pensiun"},
+
+        {"otherDeduction": {
+            "label": "Biaya lainnya yang dibayarkan oleh penerima penghasilan yang dapat dikurangkan dari jumlah penghasilan:",
+            "legend": [
+                {"otherDedutionType": "Iuran pensiun"},
+                {"otherDedutionType": "Iuran tunjangan hari tua"},
+                {"otherDedutionType": "Iuran jaminan hari tua"}
+            ]
+        }
+
+    }
+]
